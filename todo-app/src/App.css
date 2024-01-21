@@ -1,0 +1,51 @@
+/* App.css */
+body {
+  background-image: url('./pen-4855775.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: yellow;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+  /* Add padding to the entire app */
+}
+
+.custom-button {
+  background-color: #FFC107;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  margin-left: 10px;
+}
+
+.custom-button:hover {
+  background-color: #FFD700;
+}
+
+.list-group-item.fade-in {
+  opacity: 0.8;
+  transition: opacity 1s ease-in-out;
+  padding: 10px;
+  /* Add padding to list items */
+  margin: 5px 0;
+  /* Add margin to separate list items */
+}
+
+/* Increase the space between list items and the border of the page */
+.list-group {
+  margin: 20px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
