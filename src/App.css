@@ -9,7 +9,6 @@ body {
 .App {
   text-align: center;
   padding: 20px;
-  /* Add padding to the entire app */
 }
 
 .custom-button {
@@ -29,12 +28,11 @@ body {
   opacity: 0.8;
   transition: opacity 1s ease-in-out;
   padding: 10px;
-  /* Add padding to list items */
+  /* padding to list */
   margin: 5px 0;
-  /* Add margin to separate list items */
+  /* margin to separate list  */
 }
 
-/* Increase the space between list items and the border of the page */
 .list-group {
   margin: 20px;
 }
